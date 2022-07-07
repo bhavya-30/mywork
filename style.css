@@ -1,0 +1,244 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+.class1{
+    background: url(backgraound1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.navbar{
+    /* height: 125px;
+    width: 100%; */
+    text-align: center;
+    background: rgb(192, 210, 0);
+}
+.class2{
+    width: 340px;
+    height: auto;
+    padding:10px 70px;
+}
+.navbar ul{
+    float: right;
+    margin-right: 20px ;
+    display: inline-flex;
+    
+
+}
+.navbar ul li{
+    
+    list-style: none;
+    margin: 1px 8px;
+    
+    display: inline-block;
+    line-height: 80px;
+    
+    
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    padding: 5px 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+    transition: 0.6s;
+}
+
+.class1 ul li a:hover{
+    background:rgb(187, 141, 42);
+    border-radius: 3px;
+    color: whitesmoke;
+
+}
+.class1 .class3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    user-select: none;
+}
+#heading1{
+    color: darkred;
+    font-size: 47px;
+    font-weight: bolder;
+    width: 700px;
+    text-align: center;
+    font-style: italic;
+}
+#heading2{
+    color: rgb(170, 71, 71);
+    font-size: 25px;
+    font-weight: bold;
+    width: 700px;
+    text-align: center;
+    font-style: italic;
+}
+.class3 .class4{
+    margin: 35px 280px;
+
+}
+.class4 button{
+    height:50px;
+    width: 250px;
+    font-size: 18px;
+    font-weight: bold;
+    color:white;
+    background: black;
+    border: 1px solid blanchedalmond;
+    outline: none;
+    cursor: pointer;
+    border-radius: 25px;
+    text-align: center;
+    transition: .5s;
+
+}
+.class4 .class5{
+    margin-right: 45px ;
+}
+.class4 button:hover{
+    background: lightsalmon;
+}
+.submenu1{
+    display: none;
+
+}
+.class1 ul li:hover .submenu1{
+    display: block;
+    position: absolute;
+    background-color: aquamarine;
+    margin-top: 15px;
+    margin-left: -15px;
+    
+}
+.signup{
+    width: 320px;
+    height: 420px;
+    background: black;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px; 
+
+}
+.picture{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% -50px);
+
+    
+}
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+    color: antiquewhite;
+}
+.signup p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.signup input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.signup input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.signup input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: lightskyblue;
+    color: rgb(16, 16, 70);
+    font-size: 18px;
+    border-radius: 20px;
+}
+.signup input[type="submit"]:hover
+{
+    cursor:pointer;
+    background: rgb(137, 28, 137);
+    color: cadetblue;
+
+}
+.signup a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: rgb(130, 159, 160);
+}
+.signup a:hover{
+    color: aquamarine;
+}
+div.main{
+    width: 400px;
+    margin: 100px auto 0px auto;
+}
+h2{
+    text-align: center;
+    padding: 20px;
+    font-family: sans-serif;
+}
+div.main1{
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    font-size: 18px;
+    border-radius: 10px;
+    border:1px solid rgba(255,255,255,0.3)
+    
+}
+form#register{
+    margin:40px;
+}
+label{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-style: italic;
+}
+input#name{
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+    background-color: aliceblue;
+    box-shadow: inset 1px 1px 5px rgba(0,0,0,0.3);
+}
+input#submit{
+    width: 200px;
+    padding: 7px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 600;
+    border: none;
+    border-radius:3px;
+    color:black;
+    cursor: pointer;
+    border: 1px solid rgba(255,255,255,0.3);
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+    margin-bottom: 20px;
+}
+label,span,h2{
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+}
